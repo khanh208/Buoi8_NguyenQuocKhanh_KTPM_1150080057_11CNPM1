@@ -16,7 +16,6 @@ public class CartTest {
         DriverFactory.getDriver().get("https://www.saucedemo.com/inventory.html");
         System.out.println("[CartTest] Đang chạy trên Thread ID: " + Thread.currentThread().getId());
         
-        // Dừng 5 giây để bạn kịp chụp ảnh 2 cửa sổ Chrome
         Thread.sleep(5000);
     }
 

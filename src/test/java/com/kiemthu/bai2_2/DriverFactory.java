@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
-    // ThreadLocal: đảm bảo mỗi luồng (thread) sẽ giữ một bản sao WebDriver riêng biệt
     private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
     public static void initDriver(String browser) {
@@ -15,20 +14,20 @@ public class DriverFactory {
                 driver = new FirefoxDriver();
                 break;
             default:
-                driver = new ChromeDriver(); // Mặc định dùng Chrome
+                driver = new ChromeDriver(); 
         }
         driver.manage().window().maximize();
-        tlDriver.set(driver); // Gắn driver vào luồng hiện tại
+        tlDriver.set(driver); 
     }
 
     public static WebDriver getDriver() {
-        return tlDriver.get(); // Lấy driver của luồng hiện tại ra dùng
+        return tlDriver.get(); 
     }
 
     public static void quitDriver() {
         if (tlDriver.get() != null) {
             tlDriver.get().quit();
-            tlDriver.remove(); // Rất quan trọng: Xóa để tránh tràn bộ nhớ (memory leak)
+            tlDriver.remove(); 
         }
     }
 }

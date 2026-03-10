@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.768" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.158" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire10751604365200208776\surefirebooter-20260310151302440_3.jar C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire10751604365200208776 2026-03-10T15-13-02_202-jvmRun1 surefire-20260310151302440_1tmp surefire_0-20260310151302440_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire6199291657389169960\surefirebooter-20260310153805800_3.jar C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire6199291657389169960 2026-03-10T15-38-05_598-jvmRun1 surefire-20260310153805800_1tmp surefire_0-20260310153805800_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\NguyenQuocKhanh\tester\Buoi8_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\ThucHanh_TestNG_Buoi8\target\test-classes;E:\NguyenQuocKhanh\tester\Buoi8_NguyenQuocKhanh_KTPM_1150080057_11CNPM1\ThucHanh_TestNG_Buoi8\target\classes;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Nguyen Quoc Khanh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire10751604365200208776\surefirebooter-20260310151302440_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nguyen Quoc Khanh\AppData\Local\Temp\surefire6199291657389169960\surefirebooter-20260310153805800_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
@@ -59,8 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testLoginSuccess" classname="com.kiemthu.bai2.LoginTest" time="0.016">
-    <system-out><![CDATA[[LoginTest] Chạy testLoginSuccess - Nhóm: smoke, regression
+  <testcase name="testCart" classname="com.kiemthu.bai2_2.CartTest" time="7.591">
+    <system-out><![CDATA[[CartTest] Đang chạy trên Thread ID: 34
+[LoginTest] Đang chạy trên Thread ID: 33
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
@@ -68,26 +69,15 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/Nguyen%20Quoc%20Khanh/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Mar 10, 2026 3:38:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Mar 10, 2026 3:38:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Mar 10, 2026 3:38:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Mar 10, 2026 3:38:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 145.0.7632.160. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginWrongPassword" classname="com.kiemthu.bai2.LoginTest" time="0.012">
-    <system-out><![CDATA[[LoginTest] Chạy testLoginWrongPassword - Nhóm: regression
-]]></system-out>
-  </testcase>
-  <testcase name="testAddToCart" classname="com.kiemthu.bai2.CartTest" time="0.006">
-    <system-out><![CDATA[[CartTest] Chạy testAddToCart - Nhóm: smoke, regression
-]]></system-out>
-  </testcase>
-  <testcase name="testRemoveFromCart" classname="com.kiemthu.bai2.CartTest" time="0.006">
-    <system-out><![CDATA[[CartTest] Chạy testRemoveFromCart - Nhóm: regression
-]]></system-out>
-  </testcase>
-  <testcase name="testCancelCheckout" classname="com.kiemthu.bai2.CheckoutTest" time="0.007">
-    <system-out><![CDATA[[CheckoutTest] Chạy testCancelCheckout - Nhóm: regression
-]]></system-out>
-  </testcase>
-  <testcase name="testCheckoutSuccess" classname="com.kiemthu.bai2.CheckoutTest" time="0.013">
-    <system-out><![CDATA[[CheckoutTest] Chạy testCheckoutSuccess - Nhóm: smoke, regression
-]]></system-out>
-  </testcase>
+  <testcase name="testLogin" classname="com.kiemthu.bai2_2.LoginTest" time="8.544"/>
 </testsuite>
