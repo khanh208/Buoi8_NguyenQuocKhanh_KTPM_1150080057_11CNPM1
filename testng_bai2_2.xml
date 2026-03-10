@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_Bai_2_2" parallel="classes" thread-count="2">
+    <test name="Test_Parallel_Execution">
+        <classes>
+            <class name="com.kiemthu.bai2_2.LoginTest"/>
+            <class name="com.kiemthu.bai2_2.CartTest"/>
+        </classes>
+    </test>
+</suite>
